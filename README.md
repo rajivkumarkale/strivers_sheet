@@ -1,5 +1,5 @@
-#**Striver's Sheet solution**
+# **Striver's Sheet solution**
 ---
 
-##[Binary Tree](/binary_tree/binary_tree.md)
+## [Binary Tree](/binary_tree/binary_tree.md)
 
