@@ -60,11 +60,8 @@ public:
 
         while(!stk.empty()){
             curr = stk.top(); stk.pop();
-            while(curr){
-                preTree.push_back(curr->val);
-                if(curr->right) stk.push(curr->right);
-                curr = curr->left;
-            }
+            if(curr->right) stk.push(curr->right);
+            if(curr->left) stk.push(curr->left);
         }
         return preTree;
     }
